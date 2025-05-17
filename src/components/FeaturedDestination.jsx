@@ -1,5 +1,6 @@
 import React from 'react'
 import { roomsDummyData } from '../assets/assets'
+import HotelCard from './HotelCard'
 
 const FeaturedDestination = () => {
   return (
