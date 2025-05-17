@@ -7,7 +7,7 @@ const HotelCard = ({ room, index }) => {
     <Link
       to={`/rooms/${room._id}`}
       onClick={() => window.scrollTo(0, 0)}
-      className="block max-w-70 w-full rounded-xl overflow-hidden bg-white text-gray-500/90 shadow-[0px_4px_4px_rgba(0,0,0,0.05)] relative"
+      className="block max-w-70 w-full rounded-xl overflow-hidden bg-white text-gray-500/90 shadow-[0px_4px_4px_rgba(0,0,0,0.05)] relative mt-20"
     >
       <img
         src={room.images[0]}
